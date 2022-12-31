@@ -1,0 +1,34 @@
+==== Author ====
+Student name: Chung Lai Ho
+Student ID: 101181150
+
+==== Description ====
+This is to implement the finite circular buffer for the producer and consumer problem by using Linux shared memory and semaphores.
+
+==== Instructions to Use ====
+Note:
+------------------
+Create two text documents beforehand with names, input_file.txt and output_file.txt, using the following two commands:
+cat > input_file.txt
+cat > output_file.txt
+
+The producer process will read from a file. The file can only be named "input_file.txt". The consumer process will write to a file. The file can only be named "output_file.txt". 
+
+An example input_file.txt is attached. The content can be changed.
+
+First Terminal:
+------------------
+• This terminal is used to run an instance of the producer program
+• Simply enter the command below to run an instance of it 
+./producer
+
+
+Second Terminal:
+------------------
+• This terminal is used to run an instance of the consumer program
+• Simply enter the command below to run an instance of it
+./consumer
+
+
+
+
