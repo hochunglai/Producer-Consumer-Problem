@@ -1,7 +1,3 @@
-==== Author ====
-Student name: Chung Lai Ho
-Student ID: 101181150
-
 ==== Description ====
 This is to implement the finite circular buffer for the producer and consumer problem by using Linux shared memory and semaphores.
 
